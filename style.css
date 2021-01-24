@@ -1,0 +1,122 @@
+body{
+    line-height: 1;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+blockquote,q{
+    quotes: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*style*/
+
+body{
+    font: 16px/28px arail,sans-serif ;
+    background-color: #eaeaea ;
+    background-image: url(img/1.png);
+    color: #fff;
+
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: lightskyblue;
+}
+
+.header{
+    padding: 15px;
+}
+
+.header .judul{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 7px;
+}
+/*untuk menghlangkan garis dan menganti warna pada link*/
+.header a {
+    text-decoration:  none;
+    color: salmon;
+    padding: 3px;
+}
+
+/*untuk membuat penanda pada link*/
+.header a:hover {
+    background-color: lightseagreen;
+    color: lightskyblue;
+}
+
+.hero{
+    height: 290px;
+    background-image: url("img/4.jpg");
+    background-size: cover;
+    background-position: 0 -180px;
+    border-bottom: 3px solid rgb(0, 255, 179);
+    border-top: 3px solid rgb(0, 255, 179);
+
+}
+.content{
+    padding:  20px; 
+
+
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .penulis{
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.content p.penulis a {
+    text-decoration:  none;
+    color: salmon;
+    padding: 3px;
+}
+
+
+.footer{
+
+    background-color:black;
+    padding: 10px;
+
+}
+
+.footer .copy{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+/*untuk menghlangkan garis dan menganti warna pada link*/
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
